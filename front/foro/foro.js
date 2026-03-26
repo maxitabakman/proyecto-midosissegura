@@ -52,7 +52,7 @@ fetch("https://proyecto-midosissegura.onrender.com/Guardarmensajesdelforo", {
 })
 
 }});
-fetch("http://localhost:3000/darmensajesalforo")
+fetch("https://proyecto-midosissegura.onrender.com/darmensajesalforo")
   .then(res => res.json())
   .then(data => {
        for (let i = 0; i < data.length; i++) {
