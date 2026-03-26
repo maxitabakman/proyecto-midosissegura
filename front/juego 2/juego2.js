@@ -224,7 +224,7 @@ resultadoDiv.addEventListener("click", function (event) {
  confeti.pause();
  confeti.classList.remove("messi")
     correcttos = 0;
-     fetch("http://127.0.0.1:3000/trofeos", {
+     fetch("https://proyecto-midosissegura.onrender.com/trofeos", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"

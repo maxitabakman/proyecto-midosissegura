@@ -7,7 +7,7 @@ let pratio= document.getElementById("pratio");
 let inpuratio= document.getElementById("inpuratio");
 let inputdosis= document.getElementById("inputdosis");
 
-fetch("http://127.0.0.1:3000/UsuarioRegistrado", {
+fetch("https://proyecto-midosissegura.onrender.com/UsuarioRegistrado", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
@@ -30,7 +30,7 @@ function definicion(data){
 }
 inputdosis.addEventListener("keydown", (event) => {
    if (event.key === "Enter") {
-        fetch("http://127.0.0.1:3000/ActualizarDosis", {
+        fetch("https://proyecto-midosissegura.onrender.com/ActualizarDosis", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
@@ -49,7 +49,7 @@ inputdosis.addEventListener("keydown", (event) => {
 
 inpuratio.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
-      fetch("http://127.0.0.1:3000/ActualizarRatio", {
+      fetch("https://proyecto-midosissegura.onrender.com/ActualizarRatio", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"

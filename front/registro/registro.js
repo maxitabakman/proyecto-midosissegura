@@ -106,7 +106,7 @@ function enviardatos() {
     localStorage.setItem ("valoranteojos", valoranteojos);
     localStorage.setItem ("valorpelo", valorpelo);
     localStorage.setItem ("RATIO", ratio);
-fetch("http://127.0.0.1:3000/UsuarioRegistrado", {
+fetch("https://proyecto-midosissegura.onrender.com/UsuarioRegistrado", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
@@ -119,7 +119,7 @@ fetch("http://127.0.0.1:3000/UsuarioRegistrado", {
     })}).then(response => response.json())
     .then(data => {const respuesta = data;
   
-fetch("http://127.0.0.1:3000/trofeos", {
+fetch("https://proyecto-midosissegura.onrender.com/trofeos", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
@@ -135,7 +135,7 @@ fetch("http://127.0.0.1:3000/trofeos", {
             
     })
  if(nombre=== nombreniño.value && apellido ===apellidoniño.value){
-    fetch("http://127.0.0.1:3000/InicioNiños", {
+    fetch("https://proyecto-midosissegura.onrender.com/InicioNiños", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"

@@ -13,7 +13,7 @@ function cambiardatosdelusuario() {
     let nombre = valorinputnomredeusuario;
     console.log("ratio de insulina:" + nombre);}
 btniniciosesion.addEventListener("click", () => {
- fetch("http://127.0.0.1:3000/loginadultos", {
+ fetch("https://proyecto-midosissegura.onrender.com/loginadultos", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"

@@ -71,7 +71,7 @@ document.querySelectorAll ("#cabellos img").forEach(img => {
 }
 
 function datosUsuario() {
- fetch("http://127.0.0.1:3000/UsuarioRegistrado", {
+ fetch("https://proyecto-midosissegura.onrender.com/UsuarioRegistrado", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
@@ -91,7 +91,7 @@ function datosUsuario() {
         actualizarAvatar();
     }
 )
-  fetch("http://127.0.0.1:3000/mostrartrofeos", {
+  fetch("https://proyecto-midosissegura.onrender.com/mostrartrofeos", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"

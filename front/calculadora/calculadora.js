@@ -836,7 +836,7 @@ function calculardatos() {
   const apellidoAdulto = localStorage.getItem("apellidousuario") || localStorage.getItem("apellidoniño");
   const cantidadNum = parseInt(cantidades.value, 10) || 0;
 
-fetch("http://127.0.0.1:3000/Calculadora", {
+fetch("https://proyecto-midosissegura.onrender.com/Calculadora", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"

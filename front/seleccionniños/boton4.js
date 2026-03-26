@@ -50,7 +50,7 @@ let volveratras = document.getElementById ("volveratras");
 let apellido=localStorage.getItem ("apellidoniño");
 let nombre=localStorage.getItem ("nombreniño");
 
-   fetch("http://127.0.0.1:3000/trofeos", {
+   fetch("https://proyecto-midosissegura.onrender.com/trofeos", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"

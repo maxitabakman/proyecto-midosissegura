@@ -10,7 +10,7 @@ let registroBTN=document.getElementById("registroBTN")
     window.location.href='../main/main_html_front.html'
   })
 registroBTN.addEventListener("click", () => {
-fetch("http://127.0.0.1:3000/registrop", {
+fetch("https://proyecto-midosissegura.onrender.com/registrop", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
