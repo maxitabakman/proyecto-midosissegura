@@ -48,6 +48,10 @@ function cambiosglucemia (cambio) {
     if (nivelglucemia < 0) {
         nivelglucemia = 0;
     }
+
+    else if (nivelglucemia > 1000){
+        nivelglucemia = 1000;
+    }
 }
 
 const platos= [
