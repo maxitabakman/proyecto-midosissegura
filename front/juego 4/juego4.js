@@ -49,8 +49,8 @@ function cambiosglucemia (cambio) {
         nivelglucemia = 0;
     }
 
-    else if (nivelglucemia > 1000){
-        nivelglucemia = 1000;
+    else if (nivelglucemia > 500){
+        nivelglucemia = 500;
     }
 }
 
