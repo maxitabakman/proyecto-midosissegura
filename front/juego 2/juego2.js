@@ -126,7 +126,7 @@ function verificarFondos() {
       resultadoDiv.innerHTML = `
       <div class="textosresultado">
         <p class="txtresultado">hiciste ${numeroHtml} de ${num7} bien</p>
-        <p class="felicidades">La palabra es: "DE"</p>
+        <p class="felicidades">La palabra es: "HACES"</p>
       </div>
 <img src="../imagenes/cruz.png" alt="cruz" class="cruz" id="cruz">
  <button id="botonresultado" class="boton botonresultado">volver a jugar</button>
